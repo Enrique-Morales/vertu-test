@@ -1,22 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vertu test</title>
     <link rel="stylesheet" href="./index.css" />
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <noscript>
-        <strong>We're sorry but this application doesn't work properly without
+      <strong
+        >We're sorry but this application doesn't work properly without
         JavaScript enabled. Please enable it to continue.
-        </strong>
+      </strong>
     </noscript>
-    <div id="app">Hello world!</div>
+    <div id="app">
+      <header class="nav-bar">
+        <div class="nav-bar-wrapper">
+<h1 class="company-name">VERTU</h1>
+<nav>
+    <ul class="nav-items">
+        <li class="nav-item">
+            <a href="#">New Cars <img class="down-arrow" src="./assets/down-arrow.png" /></a>
+        </li>
+        <li class="nav-item">
+            <a href="#">Used Cars<img class="down-arrow" src="./assets/down-arrow.png" /></a>
+        </li>
+        <li class="nav-item">
+            <a href="#">Servicing<img class="down-arrow" src="./assets/down-arrow.png" /></a>
+        </li>
+        <li class="nav-item">
+            <a href="#">Commercials<img class="down-arrow" src="./assets/down-arrow.png" /></a>
+        </li>
+        <li class="nav-item"><a href="#">Motability</a></li>
+    </ul>
+</nav>
+<div class="search">
+    <img src="./assets/magnifying-glass.png" />
+    <input type="search" placeholder='Search: "Make, model or location"' />
+    <img src="./assets/mic.png" />
+</div>
+<div class="button-group">
+    <div class="button">
+        <img src="./assets/location.png" /><span class="button-label">Find us</span>
+    </div>
+    <div class="button">
+        <img src="./assets/like.png" /><span class="button-label">Saved</span>
+    </div>
+    <div class="button">
+        <img src="./assets/user.png" /><span class="button-label">Log in</span>
+    </div>
+</div>
+        </div>
+        
+      </header>
+      <section class="hero">
+        <div class="hero-banner">
+          <h2 class="hero-header">
+            <div>Explore the new</div>
+            <div>BMW i4 range</div>
+          </h2>
+          <p class="hero-body">
+            <div>From the cool Trend and SUV-inspired Active</div>
+            <div>to the sporty ST-line, the eight generation</div>
+            <div>Fiesta impresses across the range.</div>
+          </p>
+          <button>Book a test drive</button>
+        </div>
+      </section>
+      <section class="trims">
+        <h3 class="trims-title">BMW i4 trims</h3>
+        <div class="cards-container">
+          <div class="card">
+            <img class="card-img" src="./assets/trim 01.jpg" />
+            <div class="card-body">
+              <h4 class="trim-name">M 50</h4>
+              <p class="trim-price">From £65,795</p>
+              <ul class="trim-extras">
+                <li>Velour floor mats</li>
+                <li>Sun protection glass</li>
+                <li>Automatic Stability Control (ASC)</li>
+                <li>Adaptative M suspension</li>
+                <li>Storage for wireless charging</li>
+                <li>Cruise control with brake assist</li>
+                <li>Automatic tailgate operation</li>
+              </ul>
+            </div>
+            </div>
+            <div class="card">
+              <img class="card-img" src="./assets/trim 02.jpg" />
+              <div class="card-body">
+                <h4 class="trim-name">M Sport</h4>
+                <p class="trim-price">From £54,980</p>
+                <ul class="trim-extras">
+                  <li>Velour floor mats</li>
+                  <li>Rain sensor including auto headlights activation</li>
+                  <li>Automatic Stability Control (ASC)</li>
+                  <li>Standard suspension</li>
+                  <li>Electric Power Steering (EPS) with Servotronic</li>
+                  <li>Automatic tailgate operation</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img" src="./assets/trim 03.jpg" />
+              <div class="card-body">
+                <h4 class="trim-name">Sport</h4>
+                <p class="trim-price">From £53,480</p>
+                <ul class="trim-extras">
+                  <li>Velour floor mats</li>
+                  <li>Rain sensor including auto headlights activation</li>
+                  <li>Automatic Stability Control (ASC)</li>
+                  <li>Standard suspension</li>
+                  <li>Electric Power Steering (EPS) with Servotronic</li>
+                  <li>Automatic tailgate operation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+
+      </section>
+    </div>
 
     <!-- <script src="../src/main.js"></script> -->
-</body>
-
+  </body>
 </html>
