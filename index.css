@@ -218,6 +218,32 @@ nav,
   display: none;
 }
 
+.features {
+  margin-top: 70px;
+}
+
+.panel-electric,
+.panel-interior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 90px;
+}
+
+.panel-interior {
+  background-color: #ededed;
+}
+
+.panel-electric {
+  background-color: #222222;
+  color: #fff;
+}
+
+.panel-heading {
+  font-weight: bold;
+  font-size: 46px;
+}
+
 @media only screen and (max-width: 1740px) {
   .lg-hide {
     display: none;
